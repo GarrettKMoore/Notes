@@ -1,0 +1,15 @@
+# Fdb version 4
+["pdflatex"] 1736595095.57343 "202501050700.tex" "202501050700.pdf" "202501050700" 1736595095.76444 2
+  "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1736268207 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1736268207 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm" 1736268207 768 1321e9409b4137d6fb428ac9dc956269 ""
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1736268207 41588 b43d3e860a4f94167ee1e725ff526a72 ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1736445775.65323 5474027 83436c3033d4ad55ae6a50bf6177fba7 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1736445720 8555711 3a115ac367f4893f46a1e2106ce00a72 ""
+  "202501050700.aux" 1736594837.39496 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "202501050700.tex" 1736595094.45691 1908 401a08397e5b3967a86fce87153df3c4 ""
+  (generated)
+  "202501050700.aux"
+  "202501050700.log"
+  "202501050700.pdf"
+  (rewritten before read)
