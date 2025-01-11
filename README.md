@@ -26,6 +26,17 @@ To get started, you need to clone the repository to your local machine. Follow t
 
 ### Step 2: Navigate to the Repository Folder
 
-Once cloned, open a terminal and navigate to the folder where you cloned the repository:
+Once cloned, open a terminal or file manager and navigate to the folder where you cloned the repository.
+
+### Step 3: Browse the Notes
+The repository is organized into different directories based on subject area. To view the notes for a particular subject:
+
+1. Navigate to the subject's 0-Main directory.
+
+2. Open the main.pdf file in any PDF viewer to access the full set of notes for that subject.
+
+### Step 4: Keep Notes Updated
+If you'd like to keep your local copy up to date with any changes made to the repository, run the following command:
 ```bash
-cd notes
+git pull
+```
