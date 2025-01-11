@@ -15,11 +15,11 @@ To get started, you need to clone the repository to your local machine. Follow t
 2. **Clone the Repository:**
    - If you are using HTTPS:
      ```bash
-     git clone https://github.com/username/notes.git
+     git clone https://github.com/garrettkmoore/notes.git
      ```
    - If you are using SSH:
      ```bash
-     git clone git@github.com:username/notes.git
+     git clone git@github.com:garrettkmoore/notes.git
      ```
 
    This will create a copy of the repository on your local machine.
