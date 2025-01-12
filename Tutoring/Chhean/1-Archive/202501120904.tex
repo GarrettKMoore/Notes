@@ -1,0 +1,56 @@
+\clearpage
+\phantomsection
+\label{202501120904}
+\renewcommand{\notetitle}{Question 1}
+
+\section*{Note Information}
+\begin{itemize}
+  \item \textbf{ID:} \texttt{202501120904}
+  \item \textbf{Timestamp:} \texttt{\today \ \currenttime}
+  \item \textbf{Tags:} \texttt{Tutoring, Chhean, Session-1}
+  \item \textbf{References:}
+    \begin{itemize}
+      \item \href{}{}
+    \end{itemize}
+\end{itemize}
+
+
+\section*{Main Content}
+\textbf{Main Idea}\\
+Suppose a particle is moving on the $x$-axis in a simple harmonic motion. Its velocity, in meters per second, at time $t$, for $0 \leq t \leq 100$ seconds, is given by $v(t) = -\frac{5}{3} \sin(\frac{t}{3})$.
+The total distance traveled by the particle in the time interval $0 \leq t \leq 21 \pi$ seconds is 70 meters.\\
+
+\textbf{Explanation}\\
+The velocity of the particle is modeled by $v(t) = -\frac{5}{3} \sin (\frac{t}{3})$. 
+The total distance the particle travels in the time interval $0 \leq t \leq 21 \pi$ is equal to $\int_{0}^{21 \pi} | v(t) | dt$, where $| v(t) | = \frac{5}{3} | \sin (\frac{t}{3}) |$. 
+Since $\sin(\frac{t}{3}) = 0$ when $t = 3 n \pi$ for all integers $n$, the velocity function maintains its sign throughout the interval $[3 n \pi, 3(n+1) \pi]$. 
+The period for the velocity function is $6 \pi$, thus twice the aforementioned interval is equal to the full period. 
+This relationship can be modeled through the following expressions:
+\begin{align*}
+  \frac{5}{3} \int_0^{6\pi} | \sin (\frac{t}{3}) | dt &= \frac{5}{3} \cdot 2 \int_0^{3\pi} \sin (\frac{t}{3}) dt\\
+                                                      &= \frac{5}{3} \cdot 2[-3 \cos(\frac{t}{3})]_0^(3\pi)\\
+                                                      &= \frac{5}{3} \cdot 2[6]\\
+                                                      &= 20
+\end{align*}
+The interval from 0 to $21 \pi$ is equal to 3.5 periods. Therefore, the total distance traveled by the particle is equal to
+\begin{align*}
+  3 \cdot 20 + \frac{5}{3} \cdot 6 &= 70 \text{ meters}
+\end{align*}
+
+\section*{Review}
+\begin{enumerate}
+  \item 
+\end{enumerate}
+
+
+\section*{Links to Other Notes}
+\begin{itemize}
+  \item \hyperref[]{}
+\end{itemize}
+
+\section*{Table of Contents}
+
+\begin{itemize}
+  \item \hyperref[toc]{TOC}
+\end{itemize}
+
