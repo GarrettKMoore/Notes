@@ -1,0 +1,69 @@
+\clearpage
+\phantomsection
+\label{202501121941}
+\renewcommand{\notetitle}{Question 7}
+
+\section*{Note Information}
+\begin{itemize}
+  \item \textbf{ID:} \texttt{202501121941}
+  \item \textbf{Timestamp:} \texttt{\today \ \currenttime}
+  \item \textbf{Tags:} \texttt{Tutoring, Chhean, Session-1}
+  \item \textbf{References:}
+    \begin{itemize}
+      \item \href{}{}
+    \end{itemize}
+\end{itemize}
+
+
+\section*{Main Content}
+\textbf{Main Idea}\\
+Suppose a chocolate factory opens daily at 9:00 am.
+The factory processes milk at the rate $p(t) = t - \frac{9}{64}t^2$ cubic meters per hour for $0 \leq t \leq 8$ hours, where $t = 0$ corresponds to 9:00 am. 
+On a given day, the factory receives milk at the rate
+\begin{align*}
+  q(t) = \begin{cases}
+    3 \text{ for } 0 \leq t \leq 4\\
+    0 \text{ for } 4 < t \leq 8\\
+  \end{cases} \text{ cubic meters per hour.}\\
+\end{align*}
+If on the given day, the factory starts with 32 cubic meters of unprocessed milk in stock, then by the end of the day, the factory would be left with cubic meters of unprocessed milk.\\
+
+\textbf{Explanation}\\
+To find the total milk received, we integrate $q(t)$ over the interval $[0,8]$:
+\begin{align*}
+  \int_0^8 q(t) dt &= \int_0^4 3 dt + \int_4^8 0 dt\\
+                   &= [3t]^4_0 + 0\\
+                   &= 12\\
+\end{align*}
+Next, we find the total milk processed by integrating $p(t)$ over the interval $[0,8]$:
+\begin{align*}
+  \int_0^8 p(t) dt &= \int_0^8 t dt - \int_0^8 \frac{9}{64}t^2 dt\\
+                   &= [\displaystyle\frac{t^2}{2}]^8_0 - [\displaystyle\frac{3t^3}{64}]^8_0\\
+                   &= 32 - 24\\
+                   &= 8\\
+\end{align*}
+Finally, we compute the net change and add it to the initial stock:
+\begin{align*}
+  12 - 8 &= 4
+\end{align*}
+\begin{align*}
+  32 + 4 &= 36 \text{ cubic meters}
+\end{align*}
+
+\section*{Review}
+\begin{enumerate}
+  \item 
+\end{enumerate}
+
+
+\section*{Links to Other Notes}
+\begin{itemize}
+  \item \hyperref[]{}
+\end{itemize}
+
+\section*{Table of Contents}
+
+\begin{itemize}
+  \item \hyperref[toc]{TOC}
+\end{itemize}
+
