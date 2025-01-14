@@ -1,0 +1,64 @@
+\clearpage
+\phantomsection
+\label{202501132004}
+\renewcommand{\notetitle}{Rationals are Inadequate}
+
+\section*{Note Information}
+\begin{itemize}
+  \item \textbf{ID:} \texttt{202501132004}
+  \item \textbf{Timestamp:} \texttt{\today \ \currenttime}
+  \item \textbf{Tags:} \texttt{Mathematics, Analysis-I, The-Real-and-Complex-Number-System}
+  \item \textbf{References:}
+    \begin{itemize}
+      \item \href{https://ocw.mit.edu/courses/18-100b-analysis-i-fall-2010/}{Analysis I}
+      \item \href{/home/garrett/Personal/References/Mathematics/Analysis-I/Rudin.pdf}{Rudin W., Principles of Mathematical Analysis}
+    \end{itemize}
+\end{itemize}
+
+
+\section*{Main Content}
+\textbf{Main Idea}\\
+The rational number system is inadequate for many purposes, both as a field and as an ordered set.\\
+
+\textbf{Explanation}\\
+For example, there is no rational $p$ such that $p^2 = 2$.\\
+
+\begin{proof}
+  Suppose on the contrary there was a $p$ that satisfied $p^2 = 2$. We could write $p = \frac{m}{n}$, where $m$ and $n$ are integers and coprime. The original expression implies
+  \begin{align*}
+    (\frac{m}{n})^2 &= 2\\
+    \frac{m^2}{n^2} &= 2\\
+    m^2 &= 2n^2\\
+  \end{align*}
+  From this expression, we see that $m^2$ is even, and thus, $m$ is even. Plugging $2k$ in for $m$, it is clear that $m^2$ is divisible by 4. It follows that $2n^2$ is divisible by 4 as well, which implies $n^2$ is even, and thus, $n$ is even. Therefore, our assumption leads to a contradiction that both $m$ and $n$ are even, thus violating the coprime property of $m$ and $n$. Hence, it is impossible for $p$ to be rational. 
+\end{proof}
+
+\begin{proof}[Alternative]
+ Let $A$ be the set of all positive rationals $p$ such that $p^2 < 2$ and let $B$ consist of all positive rationals $p$ such that $p^2 > 2$. By showing there is no largest element in $A$ and no smallest element in $B$, we effectively partion the set of rational numbers, thus implying there is no rational $p$ that falls outside these two sets, therefore satisfying $p^2 = 2$. To prove that for every $p$ in $A$ we can find a rational $q$ in $A$ such that $p < q$, we associate with each rational $p > 0$ the number 
+ \begin{align}
+   q &= p - \frac{p^2 - 2}{p + 2} = \frac{2p + 2}{p + 2}.
+ \end{align}
+ Then
+ \begin{align}
+   q^2 - 2 &= \frac{2(p^2 - 2)}{(p+2)^2}.
+ \end{align}
+ If $p$ is in $A$ then $p^2 - 2 < 0$, (1) shows that $q > p$, and (2) shows that $q^2 < 2$. Thus $q$ is in $A$. If $p$ is in $B$ then $p^2 -2 > 0$, (1) shows that $0 < q < p$, and (2) shows that $q^2 > 2$. Thus $q$ is in $B$.\\ 
+\end{proof}
+
+\section*{Review}
+\begin{enumerate}
+  \item Prove that there is no rational $p$ such that $p^2 = 2$ in two different ways.\\
+\end{enumerate}
+
+
+\section*{Links to Other Notes}
+\begin{itemize}
+  \item \hyperref[202501131947]{Definition of Rational Numbers}
+\end{itemize}
+
+\section*{Table of Contents}
+
+\begin{itemize}
+  \item \hyperref[toc]{TOC}
+\end{itemize}
+
