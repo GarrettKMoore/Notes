@@ -1,0 +1,57 @@
+\clearpage
+\phantomsection
+\label{202501150809}
+\renewcommand{\notetitle}{Implications of the Multiplication Axioms}
+
+\section*{Note Information}
+\begin{itemize}
+  \item \textbf{ID:} \texttt{202501150809}
+  \item \textbf{Timestamp:} \texttt{\today \ \currenttime}
+  \item \textbf{Tags:} \texttt{Mathematics, Analysis-I, The-Real-and-Complex-Number-Systems}
+  \item \textbf{References:}
+    \begin{itemize}
+      \item \href{https://ocw.mit.edu/courses/18-100b-analysis-i-fall-2010/}{Analysis I}
+      \item \href{/home/garrett/Personal/References/Mathematics/Analysis-I/Rudin.pdf}{Rudin W., Principles of Mathematical Analysis}
+    \end{itemize}
+\end{itemize}
+
+
+\section*{Main Content}
+\textbf{Main Idea}\\
+The axioms for multiplication imply the following statements.
+\begin{itemize}
+  \item[(a)] If $x \neq 0$ and $xy = xz$ then $y = z$.
+  \item[(b)] If $x \neq 0$ and $xy = x$ then $y = 1$.
+  \item[(c)] If $x \neq 0$ and $xy = 1$ then $y = 1/x$.
+  \item[(d)] If $x \neq 0$ then $1/(1/x) = x$.\\
+\end{itemize}
+
+\textbf{Explanation}\\
+\begin{proof}
+  Suppose $x \neq 0$. Let $xy = xz$. The axioms (M) give
+  \begin{align*}
+    y = 1 \cdot y &= (x \cdot (1/x)) cdot y = (1/x) \cdot (x \cdot y)\\
+                  &= (1/x) \cdot (x \cdot z) = ((1/x) \cdot x) \cdot z = 1 \cdot z = z
+  \end{align*}
+  This proves (a). Take $z = 1$ in (a) to obtain (b). Take $z = (1/x)$ in (a) to obtain (c). Since $x(1/x) = 1$, (c) with $1/x$ in place of $y$ gives (d).\\
+\end{proof}
+
+
+\section*{Review}
+\begin{enumerate}
+  \item What do the axioms for multiplication imply? Explain.
+\end{enumerate}
+
+
+\section*{Links to Other Notes}
+\begin{itemize}
+  \item \hyperref[202501150657]{Definition of Field}
+  \item \hyperref[202501150717]{Implications of Addition Axioms}
+\end{itemize}
+
+\section*{Table of Contents}
+
+\begin{itemize}
+  \item \hyperref[toc]{TOC}
+\end{itemize}
+
