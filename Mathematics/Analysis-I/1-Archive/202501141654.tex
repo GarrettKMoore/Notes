@@ -18,15 +18,20 @@
 
 \section*{Main Content}
 \textbf{Main Idea}\\
-Suppose $S$ is an ordered set with the least-upper-bound property, $B \subset S$, $B$ is not empty, and $B$ is bounded below. Let $L$ be the set of all lower bounds of $B$. Then 
+If an ordered set has the least-upper-bound property, then it also has the greatest-lower-bound property.\\
+
+\textbf{Explanation}\\
+\begin{theorem}
+  Suppose $S$ is an ordered set with the least-upper-bound property, $B \subset S$, $B$ is not empty, and $B$ is bounded below. Let $L$ be the set of all lower bounds of $B$. Then 
 \begin{align*}
   \alpha = \text{ sup } L
 \end{align*}
 exists in $S$, and $\alpha = \text{ inf } B$. In particular, $\text{ inf } B$ exists in $S$.\\
+\end{theorem}
 
-\textbf{Explanation}\\
-Since $B$ is bounded below, $L$ is not empty. Since $L$ consists of exactly those $y \in S$ which satisfy the inequality $y \leq x$ for every $x \in B$, we see that every $x \in B$ is an upper bound of $L$. Thus $L$ is bounded above. Our hypothesis about $S$ implies therefore that $L$ has a supremum in $S$, namely $\alpha$. If $\gamma < \alpha$ then $\gamma$ is not an upper bound of $L$, hence $\gamma \not\in B$. It follows that $\alpha \leq x$ for every $x \in B$. Thus $\alpha \in L$. If $\alpha < \beta$ then $\beta \not \in L$, since $\alpha$ is an upper bound of $L$. We have shown that $\alpha \in L$ but $\beta \not \in L$ if $\beta > \alpha$. In other words $\alpha$ is a lower bound of $B$, but $\beta$ is not if $\beta > \alpha$. This means that $\alpha = \text{ inf } B$.  \\
-
+\begin{proof}
+  Since $B$ is bounded below, $L$ is not empty. Since $L$ consists of exactly those $y \in S$ which satisfy the inequality $y \leq x$ for every $x \in B$, we see that every $x \in B$ is an upper bound of $L$. Thus $L$ is bounded above. Our hypothesis about $S$ implies therefore that $L$ has a supremum in $S$, namely $\alpha$. If $\gamma < \alpha$ then $\gamma$ is not an upper bound of $L$, hence $\gamma \not\in B$. It follows that $\alpha \leq x$ for every $x \in B$. Thus $\alpha \in L$. If $\alpha < \beta$ then $\beta \not \in L$, since $\alpha$ is an upper bound of $L$. We have shown that $\alpha \in L$ but $\beta \not \in L$ if $\beta > \alpha$. In other words $\alpha$ is a lower bound of $B$, but $\beta$ is not if $\beta > \alpha$. This means that $\alpha = \text{ inf } B$.  \\
+\end{proof}
 
 \section*{Review}
 \begin{enumerate}
