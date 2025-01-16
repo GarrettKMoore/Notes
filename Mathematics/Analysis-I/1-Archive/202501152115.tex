@@ -1,0 +1,69 @@
+\clearpage
+\phantomsection
+\label{202501152115}
+\renewcommand{\notetitle}{Further Implications of Field Axioms}
+
+\section*{Note Information}
+\begin{itemize}
+  \item \textbf{ID:} \texttt{202501152115}
+  \item \textbf{Timestamp:} \texttt{\today \ \currenttime}
+  \item \textbf{Tags:} \texttt{Mathematics, Analysis-I, The-Real-and-Complex-Number-Systems}
+  \item \textbf{References:}
+    \begin{itemize}
+      \item \href{https://ocw.mit.edu/courses/18-100b-analysis-i-fall-2010/}{Analysis I}
+      \item \href{/home/garrett/Personal/References/Mathematics/Analysis-I/Rudin.pdf}{Rudin W., Principles of Mathematical Analysis}
+    \end{itemize}
+\end{itemize}
+
+
+\section*{Main Content}
+\textbf{Main Idea}\\
+The field axioms imply the following statements, for any $x, y, z \in F$. 
+\begin{itemize}
+  \item[(a)] $0x = 0$.
+  \item[(b)] If $x \neq 0$ and $y \neq 0$ then $xy \neq 0$.
+  \item[(c)] $(-x)y = -(xy) = x(-y)$.
+  \item[(d)] $(-x)(-y) = xy$.\\
+\end{itemize}
+
+\textbf{Explanation}\\
+\begin{proof}
+  $0x + 0x = (0 + 0)x = 0x$. Hence statement (b) from \hyperref[202501150717]{Implications of the Addition Axioms} implies that $0x = 0$, and (a) holds. Next, assume $x \neq 0$, $y \neq 0$, but $xy = 0$. Then (a) gives
+  \begin{align*}
+    1 = (1/y)(1/x)xy = (1/y)(1/x)0 = 0,
+  \end{align*}
+  a contradiction. Thus (b) holds. The first equality in (c) comes from 
+  \begin{align*}
+    (-x)y + xy = (-x + x)y = 0y = 0,
+  \end{align*}
+  combined with statement (c) from \hyperref[202501150717]{Implications of the Addition Axioms}; the other half of (c) is proved in the same way:
+  \begin{align*}
+    xy + x(-y) = = x(y - y) = 0x = 0
+  \end{align*}
+  Finally,
+  \begin{align*}
+    (-x)(-y) = -[x(-y)] = -[-(xy)] = xy
+  \end{align*}
+  by (c) and statement (d) from \hyperref[202501150717]{Implications of the Addition Axioms}.\\
+\end{proof}
+
+
+\section*{Review}
+\begin{enumerate}
+  \item What other statements do the field axioms imply? Explain.
+\end{enumerate}
+
+
+\section*{Links to Other Notes}
+\begin{itemize}
+  \item \hyperref[202501150657]{Definition of Field}
+  \item \hyperref[202501150717]{Implications of Addition Axioms}
+  \item \hyperref[202501150809]{Implications of Multiplication Axioms}
+\end{itemize}
+
+\section*{Table of Contents}
+
+\begin{itemize}
+  \item \hyperref[toc]{TOC}
+\end{itemize}
+
