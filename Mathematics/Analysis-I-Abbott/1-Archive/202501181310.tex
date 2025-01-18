@@ -1,0 +1,51 @@
+\clearpage
+\phantomsection
+\label{202501181310}
+\renewcommand{\notetitle}{sup(c + A) = c + sup A}
+
+\section*{Note Information}
+\begin{itemize}
+  \item \textbf{ID:} \texttt{202501181310}
+  \item \textbf{Timestamp:} \texttt{\today \ \currenttime}
+  \item \textbf{Tags:} \texttt{Mathematics, Analysis-I-Abbott, The-Axiom-of-Completeness}
+  \item \textbf{References:}
+    \begin{itemize}
+      \item \href{/home/garrett/Personal/References/Mathematics/Analysis-I/Abbott.pdf}{Abbott, S., Understanding Analysis}
+    \end{itemize}
+\end{itemize}
+
+
+\section*{Main Content}
+\textbf{Main Idea}\\
+Let $A \subset R$ be nonempty and bounded above, and let $c \in R$. Define the set $c + A$ by 
+\begin{align*}
+  c + A = \{ c + a : a \in A \}.
+\end{align*}
+Then $\text{sup}(c + A) = c + \text{ sup } A$.\\
+
+\textbf{Explanation}\\
+Let $s = \text{ sup } A$. We see that $a \leq s$ for all $a \in A$, which implies $c + a \leq c + s$ for all $a \in A$. Thus $c + s$ is an upper bound for $c + A$ and condition (1) of \hyperref[202501180743]{Supremum and Infimum} is verified. For (2), let $b$ be an arbitrary upper bound for $c + A$, thus $c + a \leq b$ for all $a \in A$. This is equivalent to $a \leq b - c$ for all $a \in A$, from which we conclude that $b - c$ is an upper bound for $A$. Because $s$ is the least upper bound of $A$, $s \leq b - c$, which can be rewritten as $c + s \leq b$. This verifies part (2) of \hyperref[202501180743]{Supremum and Infimum}, and we conclude $\text{sup}(c + A) = c + \text{ sup } A$.\\
+
+
+\section*{Review}
+\begin{enumerate}
+  \item Prove $\text{sup}(c + A) = c + \text{ sup } A$.
+\end{enumerate}
+
+
+\section*{Links to Other Notes}
+\begin{itemize}
+  \item \hyperref[202501180703]{Initial Definition for R}
+  \item \hyperref[202501180727]{Axiom of Completeness}
+  \item \hyperref[202501180734]{Upper and Lower Bounds}
+  \item \hyperref[202501180743]{Supremum and Infimum}
+  \item \hyperref[202501181241]{Maximum and Minimum}
+  \item \hyperref[202501181257]{Q and the Axiom of Completeness}
+\end{itemize}
+
+\section*{Table of Contents}
+
+\begin{itemize}
+  \item \hyperref[toc]{TOC}
+\end{itemize}
+
