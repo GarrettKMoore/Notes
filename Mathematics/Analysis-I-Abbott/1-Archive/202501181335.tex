@@ -1,0 +1,49 @@
+\clearpage
+\phantomsection
+\label{202501181335}
+\renewcommand{\notetitle}{Alternative Phrasing for Supremum}
+
+\section*{Note Information}
+\begin{itemize}
+  \item \textbf{ID:} \texttt{202501181335}
+  \item \textbf{Timestamp:} \texttt{\today \ \currenttime}
+  \item \textbf{Tags:} \texttt{Mathematics, Analysis-I-Abbott, The-Axiom-of-Completeness}
+  \item \textbf{References:}
+    \begin{itemize}
+      \item \href{/home/garrett/Personal/References/Mathematics/Analysis-I/Abbott.pdf}{Abbott, S., Understanding Analysis}
+    \end{itemize}
+\end{itemize}
+
+
+\section*{Main Content}
+\textbf{Main Idea}\\
+Assume $s \in R$ is an upper bound for a set $A \subset R$. Then, $s = \text{ sup } A$ if and only if, for every choice of $\epsilon > 0$, there exists and element $a \in A$ satisfying $s - \epsilon < a$.\\
+
+\textbf{Explanation}\\
+For the forward direction, assume $s = \text{ sup } A$ and consider $s - \epsilon$, where $\epsilon > 0$ has been arbitrarily chosen. Because $s - \epsilon < s$, part (2) of \hyperref[202501180743]{Supremum and Infimum} implies that $s - \epsilon$ is not an upper bound for $A$. If this is the case, then there must be some element $a \in A$ for which $s - \epsilon < a$.\\
+Conversely, assume $s$ is an upper bound with the property that no matter how $\epsilon > 0$ is chosen, $s - \epsilon$ is no longer an upper bound for $A$. Notice that what this implies is that if $b$ is any number less than $s$, then $b$ is not an upper bound. To prove that $s = \text{ sup } A$, we must verify part (2) of \hyperref[202501180743]{Supremum and Infimum}. Because we have just argued that any number smaller than $s$ cannot be an upper bound, it follows that if $b$ is some other upper bound for $A$, then $s \leq b$. 
+
+
+\section*{Review}
+\begin{enumerate}
+  \item What is an alternative phrasing for part (2) in \hyperref[202501180743]{Supremum and Infimum}? Explain.
+\end{enumerate}
+
+
+\section*{Links to Other Notes}
+\begin{itemize}
+  \item \hyperref[202501180703]{Initial Definition for R}
+  \item \hyperref[202501180727]{Axiom of Completeness}
+  \item \hyperref[202501180734]{Upper and Lower Bounds}
+  \item \hyperref[202501180743]{Supremum and Infimum}
+  \item \hyperref[202501181241]{Maximum and Minimum}
+  \item \hyperref[202501181257]{Q and the Axiom of Completeness}
+  \item \hyperref[202501181310]{sup(c + A) = c + sup A}
+\end{itemize}
+
+\section*{Table of Contents}
+
+\begin{itemize}
+  \item \hyperref[toc]{TOC}
+\end{itemize}
+
