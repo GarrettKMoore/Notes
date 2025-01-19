@@ -1,0 +1,62 @@
+\clearpage
+\phantomsection
+\label{202501191115}
+\renewcommand{\notetitle}{Nested Interval Property}
+
+\section*{Note Information}
+\begin{itemize}
+  \item \textbf{ID:} \texttt{202501191115}
+  \item \textbf{Timestamp:} \texttt{\today \ \currenttime}
+  \item \textbf{Tags:} \texttt{Mathematics, Analysis-I-Abbott, Consequences-of-Completeness}
+  \item \textbf{References:}
+    \begin{itemize}
+      \item \href{/home/garrett/Personal/References/Mathematics/Analysis-I/Abbott.pdf}{Abbott, S., Understanding Analysis}
+    \end{itemize}
+\end{itemize}
+
+
+\section*{Main Content}
+\textbf{Main Idea}\\
+For each $n \in N$, assume we are given a closed interval $I_n= [a_n, b_n] = \{ x \in R : a_n \leq x \leq b_n \}$. Assume also that each $I_n$ contains $I_{n+1}$. Then, the resulting nested sequence of closed intervals
+\begin{align*}
+  I_1 \supset I_2 \supset I_3 \supset I_4 \supset ...
+\end{align*}
+has a nonempty intersection; that is, $\bigcap_{n=1}^\infty I_n \neq \emptyset$.\\
+
+\textbf{Explanation}\\
+Consider the set 
+\begin{align*}
+  A = \{ a_n : n \in N \}
+\end{align*}
+of left-hand endpoints of the intervals. Because the intervals are nested, we see that every $b_n$ serves as an upper bound for $A$. Thus, we are justified in setting
+\begin{align*}
+  x = \text{ sup } A.
+\end{align*}
+Now, consider a particular $I_n = [a_n , b_n ]$. Because $x$ is an upper bound for $A$, we have $a_n \leq x$. The fact that each $b_n$ is an upper bound for $A$ and that $x$ is the least upper bound implies $x \leq b_n$.\\
+Therefore, we have $a_n \leq x \leq b_n$, which means $x \in I_n$ for every choice of $n \in N$. Hence, $x \in \bigcap_{n=1}^\infty I_n$, and the intersection is not empty.\\
+
+
+\section*{Review}
+\begin{enumerate}
+  \item State and prove the Nested Interval Property.
+\end{enumerate}
+
+
+\section*{Links to Other Notes}
+\begin{itemize}
+  \item \hyperref[202501180703]{Initial Definition for R}
+  \item \hyperref[202501180727]{Axiom of Completeness}
+  \item \hyperref[202501180734]{Upper and Lower Bounds}
+  \item \hyperref[202501180743]{Supremum and Infimum}
+  \item \hyperref[202501181241]{Maximum and Minimum}
+  \item \hyperref[202501181257]{Q and the Axiom of Completeness}
+  \item \hyperref[202501181310]{sup(c + A) = c + sup A}
+  \item \hyperref[202501181335]{Alternative Phrasing for Supremum}
+\end{itemize}
+
+\section*{Table of Contents}
+
+\begin{itemize}
+  \item \hyperref[toc]{TOC}
+\end{itemize}
+
