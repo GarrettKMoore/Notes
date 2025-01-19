@@ -1,0 +1,75 @@
+\clearpage
+\phantomsection
+\label{202501181521}
+\renewcommand{\notetitle}{Additional Review}
+
+\section*{Note Information}
+\begin{itemize}
+  \item \textbf{ID:} \texttt{202501181521}
+  \item \textbf{Timestamp:} \texttt{\today \ \currenttime}
+  \item \textbf{Tags:} \texttt{Mathematics, Analysis-I-Abbott, The-Axiom-of-Completeness}
+  \item \textbf{References:}
+    \begin{itemize}
+      \item \href{/home/garrett/Personal/References/Mathematics/Analysis-I/Abbott.pdf}{Abbott, S., Understanding Analysis}
+    \end{itemize}
+\end{itemize}
+
+
+\section*{Main Content}
+\textbf{Main Idea}\\
+\begin{enumerate}
+  \item 
+    \begin{enumerate}
+      \item[(a)] Write a formal definition in the style of \hyperref[202501180743]{Supremum and Infimum} for the infimum or greatest lower bound of a set.
+      \item[(b)] Now, state and prove a version of \hyperref[202501181335]{Alternative Phrasing for Supremum} for greatest lower bounds.
+    \end{enumerate}
+  \item Give an example of each of the following, or state that the request is impossible.
+    \begin{enumerate}
+      \item[(a)] A set $B$ with $\text{ inf } B \geq \text{ sup } B$.
+      \item[(b)] A finite set that contains its infimum but not its supremum.
+      \item[(c)] A bounded subset $Q$ that contains its supremum but not its infimum.
+    \end{enumerate}
+\end{enumerate}
+
+\textbf{Explanation}\\
+\begin{enumerate}
+  \item 
+    \begin{enumerate}
+      \item[(a)] A real number $n$ is the greatest lower bound for a set $A \subset R$ if it meets the following two criteria:
+        \begin{enumerate}
+          \item[1.] $n$ is a lower bound for $A$;
+          \item[2.] if $b$ is any lower bound for $A$, then $b \leq n$. 
+        \end{enumerate}
+      \item[(b)] Assume $n \in R$ is a lower bound for a set $A \subset R$. Then, $n = \text{ inf } A$ if and only if, for every choice of $\epsilon > 0$, there exists an element $a \in A$ satisfying $a < n + \epsilon$. \\
+
+        \begin{proof}
+          Assume $n = \text{ inf } A$ and consider $n + \epsilon$, where $\epsilon > 0$ has been chosen arbitrarily. Because $n < n + \epsilon$, the definition for infimum implies that $n + \epsilon$ is not a lower bound for $A$. Thus, there must be some element $a \in A$ such that $a < n + \epsilon$.\\
+          Conversely, assume there exists an element $a \in A$ that satisfies $a < n + \epsilon$. In other words, for any number $b$ that is greater than $n$, $b$ is not a lower bound. Thus, according to the definition, $n$ is the greatest lower bound for $A$. 
+        \end{proof}
+    \end{enumerate}
+\end{enumerate}
+
+\section*{Review}
+\begin{enumerate}
+  \item 
+\end{enumerate}
+
+
+\section*{Links to Other Notes}
+\begin{itemize}
+  \item \hyperref[202501180703]{Initial Definition for R}
+  \item \hyperref[202501180727]{Axiom of Completeness}
+  \item \hyperref[202501180734]{Upper and Lower Bounds}
+  \item \hyperref[202501180743]{Supremum and Infimum}
+  \item \hyperref[202501181241]{Maximum and Minimum}
+  \item \hyperref[202501181257]{Q and the Axiom of Completeness}
+  \item \hyperref[202501181310]{sup(c + A) = c + sup A}
+  \item \hyperref[202501181335]{Alternative Phrasing for Supremum}
+\end{itemize}
+
+\section*{Table of Contents}
+
+\begin{itemize}
+  \item \hyperref[toc]{TOC}
+\end{itemize}
+
