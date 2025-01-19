@@ -16,22 +16,35 @@
 
 
 \section*{Main Content}
-\textbf{Main Idea}\\
+\textbf{Questions}\\
 \begin{enumerate}
   \item 
     \begin{enumerate}
       \item[(a)] Write a formal definition in the style of \hyperref[202501180743]{Supremum and Infimum} for the infimum or greatest lower bound of a set.
       \item[(b)] Now, state and prove a version of \hyperref[202501181335]{Alternative Phrasing for Supremum} for greatest lower bounds.
     \end{enumerate}
+  
   \item Give an example of each of the following, or state that the request is impossible.
     \begin{enumerate}
       \item[(a)] A set $B$ with $\text{ inf } B \geq \text{ sup } B$.
       \item[(b)] A finite set that contains its infimum but not its supremum.
       \item[(c)] A bounded subset $Q$ that contains its supremum but not its infimum.
     \end{enumerate}
+
+  \item 
+    \begin{enumerate}
+      \item[(a)] Let $A$ be nonempty and bounded below, and define $B = \{b \in R: b \text{ is a lower bound for } A\}$. Show that $\text{ sup } B = \text{ inf } A$.
+      \item[(b)] Use (a) to explain why there is no need to assert that greatest lower bounds exist as part of the Axiom of Completeness.
+    \end{enumerate}
+
+  \item As in \hyperref[202501181310]{sup(c + A) = c + sup A}, let $A \subset R$ be nonempty and bounded above, and let $c \in R$. This time define the set $cA = \{ca : a \in A\}$.
+    \begin{enumerate}
+      \item[(a)] If $c \geq 0$, show that $\text{ sup}(cA) = c \text{ sup } A$.
+      \item[(b)] Postulate a similar type of statement for $\text{ sup}(cA)$ for the case $c < 0$.
+    \end{enumerate}
 \end{enumerate}
 
-\textbf{Explanation}\\
+\textbf{Solutions}\\
 \begin{enumerate}
   \item 
     \begin{enumerate}
@@ -47,6 +60,32 @@
           Conversely, assume there exists an element $a \in A$ that satisfies $a < n + \epsilon$. In other words, for any number $b$ that is greater than $n$, $b$ is not a lower bound. Thus, according to the definition, $n$ is the greatest lower bound for $A$. 
         \end{proof}
     \end{enumerate}
+
+  \item 
+    \begin{enumerate}
+      \item[(a)] Consider $B = \{0\}$; $\text{ sup } B = \text{ inf } B = 0$, thus, $\text{ inf }B \geq \text{ sup } B$.
+      \item[(b)] Impossible, finite sets must have both a maximum and minimum, and thus, must contain their infimum and supremum.
+      \item[(c)] Consider $B = \{b \in Q : 0 < b \leq 1\}$; $\text{ sup } B = 1 \in B$ and $\text{ inf } B = 0 \not\in B$.
+    \end{enumerate}
+
+    \item
+      \begin{enumerate}
+        \item[(a)] Since every $b \in B$ is a lower bound for $A$, we have $b \leq a$ for all $a \in A$. In particular, $\text{ inf } A$, being the greatest lower bound of $A$, satisfies $b \leq \text{ inf } A$ for all $b \in B$. Thus, $\text{ sup } B \leq \text{ inf } A$, since $\text{ sup } B$ is the least upper bound of $B$. \\
+        Conversely, by definition of $\text{ inf } A$, $\text{ inf } A$ is a lower bound for $A$, so $\text{ inf } A \in B$. Since $\text{ sup } B$ is the least upper bound for $B$, it must satisfy $\text{ sup } B \geq \text{ inf } A$. \\
+        Therefore, $\text{ sup } B = \text{ inf } A$.
+      \item[(b)] The existence of the infimum for a bounded below set $A$ can always be derived from the Axiom of Completeness as follows:
+        \begin{itemize}
+          \item Define $B$ to be the set of all lower bounds of $A$.
+          \item The Axiom of Completeness guarantees that $B$ has a supremum $\text{ sup } B$.
+          \item By definition and part (a), $\text{ sup } B = \text{ inf } A$.
+        \end{itemize}
+        Thus, the existence of greatest lower bounds (infima) is already implicit in the Axiom of Completeness, as every bounded below set can be "reduced" to a problem of finding the supremum of its set of lower bounds.
+      \end{enumerate}
+
+    \item 
+      \begin{enumerate}
+        \item[(a)]  
+      \end{enumerate}
 \end{enumerate}
 
 \section*{Review}
